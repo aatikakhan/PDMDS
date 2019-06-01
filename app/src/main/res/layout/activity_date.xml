@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sonal.testin.Date">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="480dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="234dp"
+            android:layout_height="49dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="131dp"
+            android:hint="Select Date"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="108dp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="234dp"
+            android:layout_height="49dp"
+            android:layout_alignStart="@+id/date"
+            android:layout_below="@+id/date"
+            android:layout_marginTop="68dp"
+            android:hint="Select Time"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="108dp" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
